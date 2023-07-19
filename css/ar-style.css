@@ -1,0 +1,102 @@
+*{
+    letter-spacing: 0;
+    font-family: cairo;
+}
+
+@font-face {
+    font-family: cairo;
+    src: url(../google-fonts/Cairo-VariableFont_slnt\,wght.ttf);
+}
+
+.header-top .navbar-top .navbar-top-ul .top-link {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 125%;
+    left: auto;
+}
+
+.dropdown-toggle::after {
+    margin-right: 0.255em;
+    margin-left: 0;
+}
+
+
+#About .title .btn-title {
+    max-height: 56px;
+}
+
+.Services .card .btn-serv {
+    border-bottom: 1px solid var(--main-color);
+    letter-spacing: 0;
+}
+
+
+.Services .card .btn-serv::after {
+
+    width: 0;
+}
+
+.Services-price{
+    direction: ltr;
+}
+
+#Testimonials .owl-theme .owl-nav {
+    left: 0;
+    right: auto;
+}
+
+#Testimonials .owl-item:first-child {
+    margin-right: 0!important;
+}
+
+
+#faq .accordion-button {
+    margin: 0 0 0 1.25rem;
+}
+
+.accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+#vouchers .ribbon, 
+#vouchers .btn, 
+#contacts label, 
+#footer .footer-menu a,
+.video-section .title-text .btn,
+#our-work .btn-light,
+.post-section .btn,
+.post-section .badge{
+    letter-spacing: 0;
+}
+
+
+#vouchers .ribbon {
+    left: 0;
+    right: auto;
+}
+#vouchers .ribbon:before {
+    left: 75px;
+    border-left-width: 1.25em;
+    border-right-color: transparent!important;
+    border-left-color: #fceff0!important;
+
+}
+
+
+
+@media (min-width: 992px){
+.video-section .video-title .title-text {
+    text-align: right!important;
+
+}
+
+#About .owl-carousel .owl-stage-outer {
+    margin-left: 5rem!important;
+    margin-right: 0!important;
+}
+
+}
